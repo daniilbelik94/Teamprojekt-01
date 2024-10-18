@@ -95,7 +95,7 @@ gulp.task('js:dev', function () {
 });
 
 const serverOptions = {
-	livereload: true,
+	livereload: false,
 	open: true,
 };
 
