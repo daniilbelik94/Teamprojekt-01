@@ -1,1 +1,5 @@
 node_modules
+build/
+gulp/
+docs/
+gulp/dev.js
