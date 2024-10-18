@@ -1,14 +1,99 @@
 .footer {
-	background-color: rgb(62, 62, 62);
-	padding: 50px 0;
-	font-size: 32px;
-    color: #fff;
-
-	h1 {
-		font-size: 32px;
-	}
+	
+	width: 1440px;
+	height: 656px;
+	position: relative;
+	background: #070707;
 
 	@media (max-width: 1200px) {
 		font-size: 26px;
+	}
+
+	.container {
+		width: 1386px;
+		height: 656px;
+		left: 27px;
+		top: 0px;
+		position: absolute;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 198px;
+		display: inline-flex
+	}
+
+	.footermenu {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 40px
+	}
+	
+	.footerlinklist {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 24px;
+	}
+
+	.footermenu#menu {
+		flex-direction: row;
+		gap: 100px;
+	}
+
+	.iconlink {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+	.iconlink img{
+		width: 28px;
+		height: 28px;
+	}
+	.title {
+		display: inline-flex;
+		align-items: flex-start;
+		gap: 100px;
+	}
+	.menutitle {
+		color: var(--Neutral-100, #FFF);
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: THICCCBOI;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px; /* 110% */
+	}
+
+	menu {
+		display: inline-flex;
+		align-items: flex-start;
+		gap: 100px
+	}
+
+	title {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 40px;
+	}
+
+	h6 {
+		color: var(--Neutral-100, #FFF);
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: THICCCBOI;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px; /* 110% */
+	}
+	a {
+		color: var(--Neutral-100, #FFF);
+		text-align: center;
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: THICCCBOI;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px; /* 111.111% */
 	}
 }
